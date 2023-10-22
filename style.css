@@ -1,0 +1,700 @@
+@media (max-width: 750px){
+    * {
+        margin: 0;
+        }
+      
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    .menu {
+        position: fixed;
+    }
+
+    #titulo {
+        font-family: sans-serif;
+        font-weight: lighter;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid black;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+        
+    .navbar {
+        background-color:rgba(0, 0, 0, 0.7);
+        float: left;
+        width: 100%;
+    }
+        
+    nav ul {
+        list-style: none;
+    }
+        
+    nav ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        
+    nav ul li a {
+        padding: 20px;
+        color: #d4d4d4;
+        text-decoration: none;
+        display: block;
+        padding-left: 10px;
+    }
+
+    nav ul li a:hover{
+        color: rgb(243, 189, 114);
+    }
+        
+    .dcha {
+        display: flex;
+        justify-content: right;
+        padding-right: 2%;
+    }
+
+    .main-content {
+        margin-left: 15%;
+        margin-right: 15%;
+        position: absolute;
+        top: 16%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .p1 {
+        display: inline-block;
+        width: 45%;
+        height: 35%;
+    }
+
+    .p2 {
+        display: inline-block;
+        width: 45%;
+        margin-left: 0px;
+        height: 35%;
+    }
+
+    .p3 {
+        display: inline-block;
+        width: 45%;
+        height: 35%;
+    }
+
+    .section2 {
+        margin-left: 15%;
+        margin-right: 15%;
+        position: absolute;
+        top: 47%;
+        display: flex;
+        justify-content: space-between;
+        height: 41%;
+    }
+
+    .p4 {
+        display: inline-block;
+        width: 33%;
+        height: 70%;
+    }
+
+    .p5 {
+        display: inline-block;
+        width: 33%;
+        height: 70%;
+        margin: 0px;
+    }
+
+    .p6 {
+        display: inline-block;
+        width: 33%;
+        height: 70%;
+        margin: 0px;
+    }
+
+    .image {
+        width: 85%;
+        height: 72%;
+        padding-left: 7%;
+    }
+
+    .board {
+        display: flex;
+        justify-content: center;
+        margin: 4%;
+
+    }
+
+    .board2 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .p1:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .p2:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .p3:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .p4:hover{
+        cursor: pointer;
+        border: 1px solid black
+    }
+
+    .p5:hover{
+        cursor: pointer;
+        border: 1px solid black
+    }
+
+    .p6:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4%;
+    }
+
+    .price2 {
+        display: flex;
+        justify-content: center;
+        margin: 4%;
+    }
+
+    .marco {
+        position: absolute;
+        top: 30%;
+        left: 36%;
+        right: 36%;
+        background-color: #d4d4d4;
+        padding: 4%;
+        border-radius: 15%;
+        text-align: center;
+        height: 20%;
+    }
+
+    .formulario {
+        margin: 5%;
+    }
+
+    .email {
+        margin: 3%;
+    }
+
+    .contraseña {
+        margin: 3%;
+    }
+
+    .enviar {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .enviar:hover {
+        cursor: pointer;
+        background-color: rgb(116, 116, 116);
+        color: #fff;
+    }
+
+    .marco2 {
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        background-color: #d4d4d4;
+        padding: 5%;
+        border-radius: 15%;
+        text-align: center;
+        width: 30%;
+        height: 40%;
+    }
+
+    .nombre {
+        margin: 3%;
+    }
+
+    .apellidos {
+        margin: 3%;
+    }
+
+    .telefono {
+        margin: 3%;
+    }
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+    }
+
+    #email {
+        margin: 3%;
+    }
+    
+    .fondo {
+        position: absolute;
+        height: 85%;
+        top: 15%;
+    }
+
+    .fondo2 {
+        position: absolute;
+        top: 18%;
+        width: 100%;
+    }
+
+    .img_fondo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img_fondo2 {
+        width: 100%;
+
+    }
+
+    #pie_pagina {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    #pie_pagina ul {
+        list-style: none;
+    }
+
+    #pie_pagina ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #pie_pagina ul li a {
+        text-decoration: none;
+        color: #d4d4d4;
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #pie_pagina ul li a:hover{
+        color: rgb(243, 189, 114);
+    }
+
+    .pie {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .descripcion {
+        position: absolute;
+        top: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 94%;
+        padding: 3%;
+        height: 40%;
+        
+    }
+    
+    #desc {
+        text-transform: uppercase;
+    }
+    
+    .cabeza {
+        width: 20%;
+        font-size:xx-large;
+    }
+    
+    .cuerpo {
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .gracias {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        width: 50%;
+        height: 30%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #gracias {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: x-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+
+@media (min-width: 751px){
+    * {
+        margin: 0;
+        }
+      
+    header {
+        position: fixed;
+        width: 100%;
+    }
+    
+    .menu {
+        position: absolute;
+    }
+    
+    #titulo {
+        font-family: sans-serif;
+        font-weight: lighter;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid black;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+        
+    .navbar {
+        background-color:rgba(0, 0, 0, 0.7);
+        float: left;
+        width: 100%;
+    }
+        
+    nav ul {
+        list-style: none;
+    }
+        
+    nav ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        
+    nav ul li a {
+        padding: 20px;
+        color: #d4d4d4;
+        text-decoration: none;
+        display: block;
+        padding-left: 10px;
+    }
+    
+    nav ul li a:hover{
+        color: rgb(243, 189, 114);
+    }
+        
+    .dcha {
+        display: flex;
+        justify-content: right;
+        padding-right: 2%;
+    }
+    
+    .main-content {
+        margin-left: 15%;
+        margin-right: 15%;
+        position: absolute;
+        top: 16%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .p1 {
+        display: inline-block;
+        width: 45%;
+        height: 35%;
+    }
+    
+    .p2 {
+        display: inline-block;
+        width: 45%;
+        margin-left: 0px;
+        height: 35%;
+    }
+    
+    .p3 {
+        display: inline-block;
+        width: 45%;
+        height: 35%;
+    }
+    
+    .section2 {
+        margin-left: 15%;
+        margin-right: 15%;
+        position: absolute;
+        top: 65%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .p4 {
+        display: inline-block;
+        width: 33%;
+        height: 70%;
+    }
+    
+    .p5 {
+        display: inline-block;
+        width: 33%;
+        height: 70%;
+        margin: 0px;
+    }
+    
+    .p6 {
+        display: inline-block;
+        width: 33%;
+        height: 70%;
+        margin: 0px;
+    }
+    
+    .image {
+        width: 85%;
+        height: 72%;
+        padding-left: 7%;
+    }
+    
+    .board {
+        display: flex;
+        justify-content: center;
+        margin: 4%;
+    
+    }
+    
+    .board2 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .p1:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+    
+    .p2:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+    
+    .p3:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+    
+    .p4:hover{
+        cursor: pointer;
+        border: 1px solid black
+    }
+    
+    .p5:hover{
+        cursor: pointer;
+        border: 1px solid black
+    }
+    
+    .p6:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+    
+    .price {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4%;
+    }
+    
+    .price2 {
+        display: flex;
+        justify-content: center;
+        margin: 4%;
+    }
+    
+    .marco {
+        position: fixed;
+        top: 30%;
+        left: 36%;
+        right: 36%;
+        background-color: #d4d4d4;
+        padding: 4%;
+        border-radius: 15%;
+        text-align: center;
+        height: 20%;
+    }
+    
+    .formulario {
+        margin: 5%;
+    }
+    
+    .email {
+        margin: 3%;
+    }
+    
+    .contraseña {
+        margin: 3%;
+    }
+    
+    .enviar {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    
+    .enviar:hover {
+        cursor: pointer;
+        background-color: rgb(116, 116, 116);
+        color: #fff;
+    }
+    
+    .marco2 {
+        position: fixed;
+        top: 25%;
+        left: 38%;
+        background-color: #d4d4d4;
+        padding: 5%;
+        border-radius: 15%;
+        text-align: center;
+        width: 15%;
+        height: 40%;
+    }
+    
+    .nombre {
+        margin: 3%;
+    }
+    
+    .apellidos {
+        margin: 3%;
+    }
+    
+    .telefono {
+        margin: 3%;
+    }
+    
+    .formulario {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #email {
+        margin: 3%;
+    }
+    
+    .fondo {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 15%;
+    }
+    
+    .fondo2 {
+        position: absolute;
+        top: 18%;
+        width: 100%;
+        height: 90%;
+    }
+    
+    .img_fondo {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .img_fondo2 {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pie_pagina {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    #pie_pagina ul {
+        list-style: none;
+    }
+    
+    #pie_pagina ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #pie_pagina ul li a {
+        text-decoration: none;
+        color: #d4d4d4;
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #pie_pagina ul li a:hover{
+        color: rgb(243, 189, 114);
+    }
+    
+    .pie {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .descripcion {
+        position: absolute;
+        top: 115%;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 98%;
+        padding: 1%;
+        height: 35%;
+        
+    }
+    
+    #desc {
+        text-transform: uppercase;
+    }
+    
+    .cabeza {
+        display: inline-block;
+        width: 30%;
+        font-size:xx-large;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .cuerpo {
+        display: inline-block;
+        width: 67%;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .gracias {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        width: 50%;
+        height: 30%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #gracias {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: x-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+     
+}
